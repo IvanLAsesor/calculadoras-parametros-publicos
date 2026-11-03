@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.11.03-inicial",
+  "updatedAt": "2026-11-03T00:00:00-06:00",
+  "validUntil": "2026-12-03T23:59:59-06:00",
+  "status": "initial-baseline",
+  "notes": "Paquete inicial trasladado de los valores precargados en las calculadoras originales. No representa una consulta nueva ni una verificación en tiempo real de las fuentes oficiales.",
+  "parameters": {
+    "fiscal": {
+      "years": {
+        "2025": {
+          "umaDaily": 113.14,
+          "art185": 152000,
+          "tariff": [
+            [
+              0.01,
+              8952.49,
+              0.0,
+              0.0192
+            ],
+            [
+              8952.5,
+              75984.55,
+              171.88,
+              0.064
+            ],
+            [
+              75984.56,
+              133536.07,
+              4461.94,
+              0.1088
+            ],
+            [
+              133536.08,
+              155229.8,
+              10723.55,
+              0.16
+            ],
+            [
+              155229.81,
+              185852.57,
+              14194.54,
+              0.1792
+            ],
+            [
+              185852.58,
+              374837.88,
+              19682.13,
+              0.2136
+            ],
+            [
+              374837.89,
+              590795.99,
+              60049.4,
+              0.2352
+            ],
+            [
+              590796.0,
+              1127926.84,
+              110842.74,
+              0.3
+            ],
+            [
+              1127926.85,
+              1503902.46,
+              271981.99,
+              0.32
+            ],
+            [
+              1503902.47,
+              4511707.37,
+              392294.17,
+              0.34
+            ],
+            [
+              4511707.38,
+              null,
+              1414947.85,
+              0.35
+            ]
+          ]
+        },
+        "2026": {
+          "umaDaily": 117.31,
+          "art185": 152000,
+          "tariff": [
+            [
+              0.01,
+              10135.11,
+              0.0,
+              0.0192
+            ],
+            [
+              10135.12,
+              86022.11,
+              194.59,
+              0.064
+            ],
+            [
+              86022.12,
+              151176.19,
+              5051.37,
+              0.1088
+            ],
+            [
+              151176.2,
+              175735.66,
+              12140.13,
+              0.16
+            ],
+            [
+              175735.67,
+              210403.69,
+              16069.64,
+              0.1792
+            ],
+            [
+              210403.7,
+              424353.97,
+              22282.14,
+              0.2136
+            ],
+            [
+              424353.98,
+              668840.14,
+              67981.92,
+              0.2352
+            ],
+            [
+              668840.15,
+              1276925.98,
+              125485.07,
+              0.3
+            ],
+            [
+              1276925.99,
+              1702567.97,
+              307910.81,
+              0.32
+            ],
+            [
+              1702567.98,
+              5107703.92,
+              444116.23,
+              0.34
+            ],
+            [
+              5107703.93,
+              null,
+              1601862.46,
+              0.35
+            ]
+          ]
+        }
+      }
+    },
+    "issste": {
+      "urv": {
+        "H": {
+          "65": 11.85973682640888,
+          "66": 11.625745826775857,
+          "67": 11.388381678429171
+        },
+        "M": {
+          "65": 13.054335387332456,
+          "66": 12.788108764533897,
+          "67": 12.514684590146164
+        }
+      },
+      "commissions": {
+        "Azteca": 0.54,
+        "Banamex": 0.54,
+        "Coppel": 0.54,
+        "Inbursa": 0.54,
+        "Invercap": 0.54,
+        "PENSIONISSSTE": 0.52,
+        "Principal": 0.54,
+        "Profuturo": 0.54,
+        "SURA": 0.54,
+        "XXI Banorte": 0.54
+      },
+      "pg": 6922.97,
+      "cs": 7.15,
+      "tope": 17885.85,
+      "umaDaily": 117.31,
+      "minYears": 25
+    }
+  },
+  "sources": {
+    "fiscal": "Valores iniciales heredados de Diagnóstico Fiscal v13; tarifas identificadas en el archivo como DOF, Anexo 8 RMF 2026. UMA: INEGI.",
+    "issste": "Valores iniciales heredados de Calculadora ISSSTE v2. URV identificada en el archivo como tabla CONSAR del 12/10/2026; comisiones 2026 y demás parámetros requieren cotejo documental antes de declarar una actualización oficial."
+  }
+}
