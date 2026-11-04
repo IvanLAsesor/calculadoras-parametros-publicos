@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.11.03-inicial",
+  "updatedAt": "2026-11-03T00:00:00-06:00",
+  "validUntil": "2026-12-03T23:59:59-06:00",
+  "status": "initial-baseline",
+  "notes": "Paquete inicial de parámetros para las calculadoras de retiro (Ley 97 y Ley 73). Valores heredados de los HTML originales; pendientes de cotejo documental. No representa una verificación oficial en tiempo real.",
+  "parameters": {
+    "ley97": {
+      "pmg": {
+        "1": {
+          "60": [3540.56, 3667.47, 3793.05, 3919.99, 4046.93, 4172.51, 4299.42, 4426.37, 4551.95, 4678.89, 4805.8],
+          "61": [3591.86, 3717.44, 3844.37, 3971.31, 4096.89, 4223.81, 4349.39, 4476.32, 4603.26, 4728.83, 4855.76],
+          "62": [3641.82, 3768.76, 3894.35, 4021.28, 4148.2, 4273.77, 4400.72, 4527.62, 4653.21, 4780.14, 4907.08],
+          "63": [3691.78, 3818.72, 3945.64, 4071.22, 4198.16, 4325.09, 4450.65, 4577.59, 4704.54, 4830.12, 4957.05],
+          "64": [3743.12, 3870.03, 3995.6, 4122.54, 4249.48, 4375.05, 4501.97, 4627.56, 4754.49, 4881.41, 5007.0],
+          "65": [3793.05, 3919.99, 4046.93, 4172.51, 4299.42, 4426.37, 4551.95, 4678.89, 4805.8, 4931.37, 5058.31]
+        },
+        "2": {
+          "60": [4603.26, 4766.65, 4931.37, 5096.13, 5260.86, 5424.25, 5589.01, 5753.73, 5918.47, 6081.87, 6246.61],
+          "61": [4668.08, 4832.8, 4997.55, 5162.29, 5325.68, 5490.43, 5655.16, 5819.9, 5983.3, 6148.03, 6312.76],
+          "62": [4734.24, 4898.97, 5063.71, 5227.12, 5391.84, 5556.57, 5721.33, 5884.71, 6049.45, 6214.18, 6378.94],
+          "63": [4800.39, 4965.14, 5128.55, 5293.26, 5458.0, 5622.75, 5786.14, 5950.88, 6115.61, 6280.37, 6443.75],
+          "64": [4866.58, 5029.97, 5194.69, 5359.44, 5524.18, 5687.57, 5852.29, 6017.04, 6180.44, 6345.17, 6509.92],
+          "65": [4931.37, 5096.13, 5260.86, 5424.25, 5589.01, 5753.73, 5918.47, 6081.87, 6246.61, 6411.34, 6576.07]
+        },
+        "3": {
+          "60": [5664.62, 5867.16, 6069.7, 6272.26, 6474.81, 6677.37, 6878.56, 7081.1, 7283.64, 7486.2, 7688.75],
+          "61": [5745.62, 5948.18, 6150.72, 6353.27, 6555.81, 6758.37, 6959.58, 7162.13, 7364.68, 7567.22, 7769.76],
+          "62": [5826.64, 6029.21, 6231.74, 6434.3, 6636.84, 6838.04, 7040.58, 7243.14, 7445.69, 7648.24, 7850.78],
+          "63": [5907.67, 6110.22, 6312.76, 6515.33, 6717.87, 6920.06, 7121.61, 7324.16, 7526.7, 7729.26, 7931.81],
+          "64": [5988.69, 6191.25, 6393.77, 6596.33, 6797.52, 7000.08, 7202.64, 7405.2, 7607.71, 7810.28, 8012.82],
+          "65": [6069.7, 6272.26, 6474.81, 6677.37, 6878.56, 7081.1, 7283.64, 7486.2, 7688.75, 7891.31, 8092.5]
+        },
+        "4": {
+          "60": [6727.31, 6967.68, 7208.03, 7448.39, 7688.75, 7929.11, 8169.47, 8409.82, 8648.82, 8889.19, 9129.53],
+          "61": [6823.2, 7063.56, 7303.89, 7544.28, 7784.62, 8024.96, 8265.34, 8505.68, 8746.05, 8986.4, 9226.79],
+          "62": [6919.08, 7159.41, 7399.77, 7640.14, 7880.49, 8120.85, 8361.22, 8601.56, 8841.92, 9082.28, 9322.64],
+          "63": [7016.27, 7255.49, 7495.65, 7736.01, 7976.36, 8216.73, 8457.08, 8697.44, 8937.8, 9178.15, 9418.52],
+          "64": [7112.15, 7352.53, 7592.87, 7833.22, 8072.25, 8312.59, 8552.96, 8793.32, 9033.67, 9274.02, 9514.38],
+          "65": [7208.03, 7448.39, 7688.75, 7929.11, 8169.47, 8409.82, 8648.82, 8889.19, 9129.53, 9369.91, 9610.26]
+        },
+        "5": {
+          "60": [7790.01, 8068.19, 8346.36, 8624.51, 8902.68, 9180.85, 9459.03, 9737.2, 10015.35, 10293.51, 10571.67],
+          "61": [7900.76, 8178.92, 8457.08, 8735.25, 9013.43, 9291.57, 9569.74, 9847.91, 10126.08, 10404.25, 10682.41],
+          "62": [8011.47, 8290.99, 8569.16, 8847.33, 9125.49, 9403.67, 9681.84, 9959.98, 10238.14, 10516.31, 10794.49],
+          "63": [8123.55, 8401.71, 8679.88, 8958.04, 9236.22, 9514.38, 9792.55, 10070.71, 10348.88, 10627.06, 10905.21],
+          "64": [8234.28, 8512.45, 8790.63, 9068.78, 9346.95, 9625.12, 9903.29, 10181.42, 10459.6, 10739.12, 11017.3],
+          "65": [8346.36, 8624.51, 8902.68, 9180.85, 9459.03, 9737.2, 10015.35, 10293.51, 10571.67, 10849.85, 11128.01]
+        }
+      },
+      "aportaciones": {
+        "a26": [6.275, 6.801, 7.976, 8.681, 9.151, 9.486, 9.738, 10.638],
+        "a30": [6.275, 7.327, 9.677, 11.087, 12.027, 12.698, 13.202, 15.0],
+        "gradualidad": { "startYear": 2026, "endYear": 2030 }
+      },
+      "cuotaSocial": [12.15794, 11.3097, 10.46148, 9.61325, 8.76502, 7.91682, 7.06856, 0.0],
+      "umaDaily": 117.31,
+      "salarioMinimoDiario": 315.04,
+      "topeBienestar": 17885.85,
+      "anualidadContingente": { "H": 15.8, "M": 16.5 },
+      "factoresPension": { "saldo": 1.15, "descuento": 1.02 },
+      "semanasMinimas": {
+        "piso": 750,
+        "incremento": 25,
+        "yearBase": 2021,
+        "tope": 1000
+      }
+    },
+    "ley73": {
+      "pisoGarantizado": 10636.54,
+      "tablaPension": [
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 11067, 11678],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 11250, 12055, 12859, 13663, 14468],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 11519, 12267, 13264, 14261, 15259, 16256, 17253],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 11018, 12189, 13361, 14240, 15412, 16583, 17755, 18927, 20099],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 11587, 12592, 13931, 15270, 16274, 17613, 18952, 20292, 21631, 22970],
+        [10636.54, 10636.54, 10636.54, 10636.54, 10636.54, 11529, 13036, 14166, 15672, 17179, 18309, 19815, 21321, 22828, 24334, 25841],
+        [10636.54, 10636.54, 10636.54, 10636.54, 11136, 12810, 14484, 15740, 17413, 19087, 20343, 22017, 23691, 25364, 27038, 28712],
+        [10636.54, 10636.54, 10636.54, 10636.54, 12250, 14091, 15933, 17314, 19155, 20996, 22377, 24218, 26060, 27901, 29742, 31583],
+        [10636.54, 10636.54, 10636.54, 11355, 13364, 15372, 17381, 18888, 20896, 22905, 24411, 26420, 28429, 30437, 32446, 34455],
+        [10636.54, 10636.54, 10636.54, 12301, 14477, 16653, 18829, 20461, 22638, 24814, 26446, 28622, 30798, 32974, 35150, 37326],
+        [10636.54, 10636.54, 10904, 13248, 15591, 17934, 20278, 22035, 24379, 26722, 28480, 30823, 33167, 35510, 37854, 40197],
+        [10636.54, 10636.54, 11683, 14194, 16705, 19215, 21726, 23609, 26120, 28631, 30514, 33025, 35536, 38047, 40557, 43068],
+        [10636.54, 10636.54, 12462, 15140, 17818, 20497, 23175, 25183, 27862, 30540, 32548, 35227, 37905, 40583, 43261, 45940],
+        [10636.54, 10636.54, 13241, 16086, 18932, 21778, 24623, 26757, 29603, 32449, 34583, 37428, 40274, 43120, 45965, 48811],
+        [10636.54, 11007, 14020, 17033, 20046, 23059, 26072, 28331, 31344, 34357, 36617, 39630, 42643, 45656, 48669, 51682],
+        [10636.54, 11618, 14798, 17979, 21159, 24340, 27520, 29905, 33086, 36266, 38651, 41832, 45012, 48192, 51373, 54553],
+        [10636.54, 12230, 15577, 18925, 22273, 25621, 28968, 31479, 34827, 38175, 40686, 44033, 47381, 50729, 54077, 57424],
+        [10636.54, 12841, 16356, 19871, 23387, 26902, 30417, 33053, 36568, 40083, 42720, 46235, 49750, 53265, 56780, 60296],
+        [10636.54, 13453, 17135, 20818, 24500, 28183, 31865, 34627, 38310, 41992, 44754, 48437, 52119, 55802, 59484, 63167],
+        [10636.54, 14064, 17914, 21764, 25614, 29464, 33314, 36201, 40051, 43901, 46788, 50638, 54488, 58338, 62188, 66038],
+        [10658, 14676, 18693, 22710, 26727, 30745, 34762, 37775, 41792, 45810, 48823, 52840, 56857, 60875, 64892, 68909],
+        [11102, 15287, 19472, 23656, 27841, 32026, 36211, 39349, 43534, 47718, 50857, 55042, 59226, 63411, 67596, 71780]
+      ],
+      "factorEdad": [0.75, 0.80, 0.85, 0.90, 0.95, 1.0],
+      "umaDaily": 117.31,
+      "salarioMinimoGeneral": 315.04,
+      "salarioMinimoFrontera": 440.87,
+      "tasaM40": 14.438,
+      "ocupaciones": [
+        { "division": "Mexicanos en el extranjero", "grupos": [{ "nombre": "Persona que labora en el extranjero", "prima": 0.54355 }] },
+        { "division": "Plataformas digitales", "grupos": [{ "nombre": "Conductores y repartidores", "prima": 4.65325 }] },
+        { "division": "Ministros de culto", "grupos": [{ "nombre": "Sacerdotes, pastores y otros teólogos", "prima": 0.54355 }] },
+        { "division": "Profesionistas y técnicos", "grupos": [
+          { "nombre": "Profesionistas y técnicos en ciencias económico-administrativas, ciencias sociales, humanistas y en artes", "prima": 0.54355 },
+          { "nombre": "Investigadores, técnicos y profesionistas en ciencias exactas, biológicas, ingeniería, informática y en telecomunicaciones", "prima": 0.54355 },
+          { "nombre": "Profesores, técnicos y especialistas en docencia", "prima": 0.54355 },
+          { "nombre": "Médicos, enfermeras, técnicos, otros especialistas en salud y trabajadores de apoyo", "prima": 1.13065 }
+        ] },
+        { "division": "Comerciantes y agentes de ventas", "grupos": [
+          { "nombre": "Comerciantes", "prima": 2.5984 },
+          { "nombre": "Trabajadores de alquiler de bienes muebles y de bienes raíces", "prima": 1.13065 },
+          { "nombre": "Vendedores ambulantes", "prima": 1.13065 }
+        ] },
+        { "division": "Trabajadores en servicios personales y de vigilancia", "grupos": [
+          { "nombre": "Trabajadores en la preparación y servicio de alimentos y bebidas, así como en servicios de esparcimiento y de hotelería", "prima": 2.5984 },
+          { "nombre": "Trabajadores independientes en cuidados personales", "prima": 2.5984 },
+          { "nombre": "Trabajadores en servicios de protección y vigilancia", "prima": 2.5984 }
+        ] },
+        { "division": "Trabajadores en actividades agrícolas, ganaderas, forestales, caza y pesca", "grupos": [
+          { "nombre": "Trabajadores en actividades agrícolas y ganaderas", "prima": 2.5984 },
+          { "nombre": "Trabajadores en actividades pesqueras, forestales, caza y similares", "prima": 4.65325 },
+          { "nombre": "Operadores de maquinaria agropecuaria y forestal", "prima": 7.58875 }
+        ] },
+        { "division": "Trabajadores artesanos", "grupos": [{ "nombre": "Artesanos y trabajadores en el tratamiento y elaboración de productos", "prima": 7.58875 }] },
+        { "division": "Trabajadores de la construcción", "grupos": [{ "nombre": "Trabajadores de la construcción", "prima": 7.58875 }] },
+        { "division": "Operadores de instalaciones y maquinaria industrial", "grupos": [
+          { "nombre": "Operadores de instalaciones y maquinaria industrial", "prima": 7.58875 },
+          { "nombre": "Ensambladores y montadores de herramientas, maquinaria, productos metálicos y electrónicos", "prima": 4.65325 }
+        ] },
+        { "division": "Conductores", "grupos": [
+          { "nombre": "Conductores de transporte y de maquinaria móvil", "prima": 4.65325 },
+          { "nombre": "Conductores de transporte de tracción humana y animal", "prima": 7.58875 }
+        ] },
+        { "division": "Trabajadores en actividades elementales de apoyo y mensajería", "grupos": [
+          { "nombre": "Trabajadores de paquetería, de apoyo para espectáculos, mensajeros y repartidores de mercancía", "prima": 4.65325 },
+          { "nombre": "Ocupaciones de apoyo", "prima": 4.65325 }
+        ] },
+        { "division": "Otra división no clasificada anteriormente", "grupos": [{ "nombre": "Otro grupo no clasificado anteriormente", "prima": 7.58875 }] }
+      ],
+      "cuotasCesantia": {
+        "tramos": [3.15, 3.676, 4.851, 5.556, 6.026, 6.361, 6.613, 7.513],
+        "adicional": 1.125
+      },
+      "factoresCuota": {
+        "enfermedad": 0.204,
+        "excedente": 0.015,
+        "invalidez": 0.02375,
+        "retiro": 0.02,
+        "guarderia": 0.01,
+        "infonavit": 0.05
+      }
+    }
+  },
+  "sources": {
+    "ley97": "Valores heredados de Calculadora de retiro Ley 97 e inversión.html. PMG: tabla IMSS 2026 (heredada); A26/A30: Ley del Seguro Social (gradualidad 2023-2030, heredados); CS: Ley del Seguro Social (heredados); Ae: CUSF anexo 14.2.1-y (heredados); factores 1.15/1.02: metodología CONSAR (pendiente de cotejo). Ninguno verificado documentalmente en esta fase.",
+    "ley73": "Valores heredados de Calculadora de retiro 73Mod10Mod40.html. Tabla R y piso F: fuente no citada en el HTML original (pendiente de cotejo con IMSS); FAC: porcentaje por edad (pendiente de cotejo); Ocupaciones: catálogo IMSS (heredado); Tasa M40: acuerdo IMSS 21/10/2026 (heredado). Ninguno verificado documentalmente en esta fase."
+  }
+}
